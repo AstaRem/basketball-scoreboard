@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    background-color:#1B244A;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    align-items: center;
+    margin: 0;
+}
+
+/* .home, .guest {
+    display: flex;
+
+} */
+
+.scoreboard {
+    width: 100px;
+    height: 80px;
+    background-color: black;
+    color: #F43F5E;
+    font-family: 'Cursed Timer ULiL';
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Black Ops One';    
+    font-style: normal;
+    font-weight: 200;
+    font-size: 4rem;
+    line-height: 127px;
+    margin-bottom: 2rem;
+    padding: 2rem;
+}
+
+.increase-buttons {
+    width: 164px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.btn {
+    background-color: #1B244A;
+    border-color: #EEEEEE;
+    border-radius: 3px;
+    color: #EEEEEE;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+h3 {
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    /* identical to box height, or 90% */
+
+    text-align: center;
+
+    color: #EEEEEE;
+}
+
+.new-button {
+    background: #EEEEEE;
+    color:  #1B244A;
+    border:none;
+    width: 150px;
+    height:100px;
+    border-radius: 4px;
+    margin-top: 3rem;
+    font-size: 1.4rem;
+}
+
